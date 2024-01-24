@@ -1,0 +1,30 @@
+
+.top-bar {
+    background-color: #333; /* Example color */
+    color: #fff;
+    padding: 5px 0;
+}
+  
+.top-bar .social-link, .top-bar .phone-link {
+    color: #fff;
+    text-decoration: none;
+}
+.container-background {
+    background-image: url('img/mydbheroimg.png');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+
+
+  }
+
+
+.custom-header {
+    letter-spacing: 2px;
+    line-height: 1.9;
+}
+
+.inner-container {
+    max-width: 600px; /* Adjust this value as needed */
+    margin: auto;
+}
