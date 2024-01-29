@@ -107,7 +107,15 @@ background-repeat: no-repeat;
     }
     
 
-    .service-img .service-img-customer .service-img-utah {
+    .service-img {
+        height: 250px; 
+        width: 250px;
+    }
+    .service-img-utah {
+        height: 250px; 
+        width: 250px;
+    }
+    .service-img-customer {
         height: 250px; 
         width: 250px;
     }
@@ -151,7 +159,19 @@ background-repeat: no-repeat;
         letter-spacing: 0.05em; 
         line-height: 1.5; 
     }
-    .service-img .service-img-customer .service-img-utah{
+    .service-img {
+        height: auto;
+        width: 100%;
+        max-width: 250px;
+        padding-top: 20px;
+    }
+    .service-img-utah {
+        height: auto;
+        width: 100%;
+        max-width: 250px;
+        padding-top: 20px;
+    }
+    .service-img-customer {
         height: auto;
         width: 100%;
         max-width: 250px;
